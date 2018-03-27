@@ -54,6 +54,14 @@ section h3.section-subheading {
   }
 }
 
+.bg-primary {
+  background-color: #F05F40 !important;
+}
+
+.text-faded {
+  color: rgba(255,255,255,.7);
+}
+  
 .btn {
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
@@ -692,3 +700,4 @@ ul.social-buttons li a {
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
   background-color: #fed136;
 }
+
