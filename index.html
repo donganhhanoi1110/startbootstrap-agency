@@ -26,7 +26,8 @@
     <!-- Custom styles for this template -->
     <link href="css/agency.css" rel="stylesheet">
     <link href="css/creative.css" rel="stylesheet">
-
+    
+	<link rel="icon" href="img/logos/favicon.ico" type="image/x-icon" />
   </head>
 
   <body id="page-top">
@@ -34,7 +35,9 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Minh Nguyen IT</a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+		 <img class="img-fluid" src="img/logos/logo.png" style="width: 123px; heigh:60px;" alt="">
+		</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fa fa-bars"></i>
@@ -42,13 +45,13 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav text-uppercase ml-auto">
             <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#team">Team</a>
@@ -79,14 +82,16 @@
           <div class="col-lg-8 mx-auto text-center">
             <h2 class="section-heading text-white">ABOUT ME</h2>
             <hr class="light my-4">
-            <p class="text-faded mb-4">I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me and you can start adding your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to write more. Tell a story and let your users get to know you!</p>
+            <p class="text-faded mb-4">
+				I am an enthusiastic, self-motivated, reliable, responsible and hard working person.
+			</p>
             <a class="btn btn-light btn-xl js-scroll-trigger" href="#skills">Get Started!</a>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Services -->
+    <!-- Skills -->
     <section id="skills">
       <div class="container">
         <div class="row">
@@ -101,24 +106,25 @@
               <i class="fa fa-circle fa-stack-2x text-primary"></i>
               <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
             </span>
-            <h4 class="service-heading">E-Commerce</h4>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            <h4 class="service-heading">Java Web Programming</h4>
+            <p class="text-muted">J2EE, Spring Framework, Struts Framework</p>
           </div>
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
               <i class="fa fa-circle fa-stack-2x text-primary"></i>
               <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
             </span>
-            <h4 class="service-heading">Responsive Design</h4>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            <h4 class="service-heading">Database</h4>
+            <p class="text-muted">Relational DB: MySQL, SQL Server, DB2</p>
+            <p class="text-muted">Non-Relational DB: MongoDB</p>
           </div>
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
               <i class="fa fa-circle fa-stack-2x text-primary"></i>
               <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
             </span>
-            <h4 class="service-heading">Web Security</h4>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            <h4 class="service-heading">Webservices</h4>
+            <p class="text-muted">SOAP, Restful</p>
           </div>
         </div>
 
@@ -250,7 +256,7 @@
     </section> -->
 
     <!-- Experience -->
-    <section id="experience">
+    <section class="bg-light" id="experience">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
@@ -525,34 +531,6 @@
       </div>
     </section>
 
-    <!-- Clients -->
-    <section class="py-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3 col-sm-6">
-            <a href="#">
-              <img class="img-fluid d-block mx-auto" src="img/logos/envato.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <a href="#">
-              <img class="img-fluid d-block mx-auto" src="img/logos/designmodo.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <a href="#">
-              <img class="img-fluid d-block mx-auto" src="img/logos/themeforest.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <a href="#">
-              <img class="img-fluid d-block mx-auto" src="img/logos/creative-market.jpg" alt="">
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <!-- Contact -->
     <section id="contact">
       <div class="container">
@@ -602,37 +580,52 @@
     <footer>
       <div class="container">
         <div class="row">
-          <div class="col-md-4">
-            <span class="copyright">Copyright &copy; Your Website 2018</span>
+          <div class="col-md-4 text-center">
+            <span class="row copyright pl-3">COPYRIGHT <i class="fa fa-copyright"></i></span>
+            <span class="row copyright pl-3">Developed with <i class="fa fa-heart"></i> from &nbsp; <a href="#">minhnguyenit</a> &nbsp;2018</span>
+            <span class="row copyright pl-3">Thanks to &nbsp;<a href="https://startbootstrap.com"> startbootstrap.com</a></span>
           </div>
           <div class="col-md-4">
-            <ul class="list-inline social-buttons">
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-twitter"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-facebook"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-linkedin"></i>
-                </a>
-              </li>
-            </ul>
+            <span class="row copyright pl-3">CONTACT INFORMATION</span>
+            <span class="row copyright pl-3"> 
+              <span class="fa-stack">
+                <i class="fa fa-circle-thin fa-stack-2x"></i>
+                <i class="fa fa-phone fa-stack-1x"></i>
+               
+              </span>
+              &nbsp;Phone 1: 123-456-7890 
+            </span>
+            <span class="row copyright pl-3"> 
+              <span class="fa-stack">
+                <i class="fa fa-circle-thin fa-stack-2x"></i>
+                <i class="fa fa-phone fa-stack-1x"></i>
+              </span> 
+              &nbsp;Phone 2: 123-456-7890
+            </span>
+            <span class="row copyright pl-3"> 
+              <span class="fa-stack">
+                <i class="fa fa-circle-thin fa-stack-2x"></i>
+                <i class="fa fa-envelope fa-stack-1x"></i>
+              </span> 
+              &nbsp;Email: &nbsp;<a href="mailto:donganhhanoi1110@gmail.com">donganhhanoi1110@gmail.com</a>
+            </span>
           </div>
           <div class="col-md-4">
-            <ul class="list-inline quicklinks">
-              <li class="list-inline-item">
-                <a href="#">Privacy Policy</a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">Terms of Use</a>
-              </li>
-            </ul>
+            <span class="row copyright pl-3">FOLLOW ME</span>
+            <span class="row copyright pl-3"> 
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+              </span>
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+              </span>
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+              </span> 
+            </span>
           </div>
         </div>
       </div>
@@ -848,17 +841,17 @@
       <ul class="list-unstyled text-center mb-0">
         <li class="list-unstyled-item">
           <a href="#">
-            <i class="fa fa-twitter"></i>
-          </a>
-        </li>
-        <li class="list-unstyled-item">
-          <a href="#">
             <i class="fa fa-facebook"></i>
           </a>
         </li>
         <li class="list-unstyled-item">
           <a href="#">
             <i class="fa fa-instagram"></i>
+          </a>
+        </li>
+        <li class="list-unstyled-item">
+          <a href="#">
+            <i class="fa fa-linkedin"></i>
           </a>
         </li>
       </ul>
