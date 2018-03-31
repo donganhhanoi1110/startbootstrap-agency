@@ -54,6 +54,10 @@ section h3.section-subheading {
   background-color: #F05F40 !important;
 }
 
+.bg-grey {
+  background-color: #f0f3f7 !important;
+}
+
 .text-faded {
   color: rgba(255,255,255,.7);
 }
@@ -184,6 +188,7 @@ header.masthead {
 header.masthead .intro-text {
   padding-top: 150px;
   padding-bottom: 100px;
+  position: relative; 
 }
 
 header.masthead .intro-text .intro-lead-in {
@@ -339,6 +344,7 @@ header.masthead .intro-text .intro-heading {
 .portfolio-modal .modal-content ul.list-inline {
   margin-top: 0;
   margin-bottom: 30px;
+  font-weight: bold;
 }
 
 .portfolio-modal .modal-content img {
@@ -512,7 +518,7 @@ header.masthead .intro-text .intro-heading {
     float: left;
     width: 41%;
     padding: 0 20px 20px 30px;
-    text-align: right;
+    text-align: left;
   }
   .timeline > li .timeline-image {
     left: 50%;
