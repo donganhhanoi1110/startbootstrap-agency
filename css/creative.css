@@ -58,12 +58,12 @@ section {
   margin-top: 0;
 }
 
-#portfolio .section-heading {
+#activities .section-heading {
   margin-top: 0;
   color: white;
 }
 
-#portfolio .section-subheading {
+#activities .section-subheading {
   color: white !important;
 }
 ::-moz-selection {
